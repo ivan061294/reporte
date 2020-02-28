@@ -1,0 +1,48 @@
+
+1. Diagramar una clase llamada producto, con sus atributos y 
+operaciones.
+_________________________
+|productos		|
+|_______________________|
+|int IDproducto 	|	
+|String NombreProducto 	|
+|int IDcategoria	|	
+|int CodCategoria	|
+|int Stock		|
+|double PrecioUnit	|
+|_______________________|
+|Modificar stock()   	|
+|EliminarProducto()	|
+|AñadirProducto()	|	|
+|_______________________|
+
+
+2. ¿Qué es un jar y para qué sirve?
+---Son herramientas y aplicaciones empaquetadas
+3. ¿Qué es el patrón MVC?
+--son capas de desarrollo que tiene 3 componentes MODELO,VISTA,CONTROLADORES
+
+4. Declarar un array y asignarle valores.
+
+int[]array = new int[3];
+    array[0]=1;
+    array[1]=2;
+    array[2]=3;
+    array[3]=4;
+
+
+4.1 ¿Cómo se obtiene el primer valor del array?
+
+int dato=array[0];
+
+4.2 ¿y el último?
+
+int dato=array[].length
+
+4.3 ¿Con qué estructura de control se itera/recorre un array? 
+de un ejemplo.
+
+for (int i = 0; i < array.length; i++) {
+            System.out.println(i);
+
+        }
